@@ -1,0 +1,44 @@
+# File e directory generati da Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+
+# File di log
+*.log
+
+# Credenziali e chiavi di accesso
+*.pem
+*.key
+*.pub
+*.cer
+*.crt
+*.pfx
+*.p12
+*.pem.key
+*.pem.enc
+*.jks
+
+# File di configurazione dell'editor
+*~
+*.sw[mnpcod]
+*.swo
+*.swp
+*.tmp
+
+# Altri file di configurazione e ambiente
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfstate.backup
+*.tfstate.tfvars
+
+# Directory generiche
+.terraform/
+
+#custom ignore
+credentials.sh
+
