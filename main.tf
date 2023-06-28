@@ -1,4 +1,15 @@
 terraform {
+
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "PierluigiOrganization"
+
+    workspaces {
+      name = "Terraform-certification-ws"
+    }
+  }
+  
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
