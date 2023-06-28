@@ -7,6 +7,7 @@ resource "aws_instance" "app_server" {
   }
 }
 
+/*
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
   version = "3.7.0"
@@ -30,4 +31,6 @@ module "vpc" {
     Environment = "dev"
   }
 }
+*/
+
 
